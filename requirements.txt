@@ -1,9 +1,0 @@
-# Minimal requirements for the Holistic Horizon EPM project
-# TensorFlow is included (CPU/GPU builds available via pip). If you have
-# problems installing TensorFlow on your Python version, see README.md.
-
-tensorflow>=2.12.0
-pandas>=1.5.3
-numpy>=1.24.0
-scikit-learn>=1.2.2
-joblib>=1.2.0
