@@ -85,19 +85,19 @@ The core of our system is a dual-input Keras Functional API model designed for m
 The project was developed across four comprehensive phases:
 
 ### Phase 1 & 2: Data Preparation & Simulation
-**File**: `phase2_narrative_embedding.py`
+**File**: `Phase 1.ipynb` & `Phase 2.ipynb`
 - Cleans cross-sectional dataset and simulates time dimension
 - Generates Narrative Embedding Vector for each time step
 - Creates synthetic enterprise narratives for qualitative context
 
 ### Phase 3: Hybrid Model Training
-**File**: `phase3_hybrid_model.py`
+**File**: `Phase 3.ipynb`
 - Defines, compiles, and trains the Dual-Input Fusion Model
 - Handles shape compatibility for time-series and embedding inputs
 - Implements multi-modal feature integration
 
 ### Phase 4: Comparative Analysis
-**File**: `phase4_comparison_report.py`
+**File**: `Phase 4.ipynb`
 - Compares Hybrid Model's MAE against standalone LSTM Baseline
 - Demonstrates quantifiable improvement from LLM narrative context
 - Generates comprehensive performance reports
@@ -149,11 +149,8 @@ Holistic-Horizon-Multi-Modal-LLM-Time-Series-Hybrid-for-Integrated-EPM/
 ├── 📄 Documentation/
 │   └── README.md
 │
-├── ⚙️ Configuration/
-│   └── requirements.txt
-│
-└── 🚀 Jupyter Notebook (Original)/
-    └── Holistic Horizon EPM Model_ Multi-Modal Integrated Prediction.ipynb
+└── ⚙️ Configuration/
+    └── requirements.txt
 ```
 
 ## 📊 Dataset
@@ -223,3 +220,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 </div>
 ```
+
